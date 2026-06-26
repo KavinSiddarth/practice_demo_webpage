@@ -1,0 +1,158 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/054/482/908/small_2x/field-of-grass-with-a-few-red-and-yellow-flowers-scattered-throughout-the-grass-is-lush-and-green-and-the-flowers-are-small-and-vibrant-free-photo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img.box{
+    width: 200px;
+    height: 200px;
+    padding: 45px;
+    border-radius: 50%;
+    transition:transform 1s ease-in-out ;
+}
+img.box1{
+    width: 200px;
+    height: 200px;
+    padding: 45px;
+    border-radius: 50%;
+    transition:transform 0.5s ease-in-out ;
+}
+h3{
+   display: inline;
+   background-color: aliceblue; 
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 3px;
+    margin-top: 5px;
+}
+a:hover{
+    color: brown;
+    text-decoration: overline;
+    
+}
+    .card {
+      width: 200px;
+      height: 100px;
+      background: rgb(224, 132, 132);
+      margin: 20px;
+      transition: transform 0.3s ease;
+      text-align: center;
+      line-height: 100px;
+    }
+
+    .card:hover {
+      transform: scale(1.1);
+      background: skyblue;
+    }
+.glow{
+    width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    transition-property: box-shadow;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    margin-left: 20px;
+}
+.glow:hover{
+    box-shadow: 0 0 25px yellow, 0 0 45px orange;
+}
+
+img.box:hover{
+    transform: scale(1.2);
+}
+img.box1:hover{
+    transform: rotate(180deg);
+}
+.rotate{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Plain-HD-Images.jpg");
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    animation: rotate 1s linear infinite ;
+}
+@keyframes rotate{
+   from{transform: rotate(0deg);}
+   to{transform: rotate(3600deg);}
+}
+.circle{
+    background: rgb(15, 29, 228);
+    color: aliceblue;
+    font-size: 20px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    right: 45.8%;
+    bottom: -46.5%;
+    transition: transform 1s ease 0s;
+}
+.circle:hover{
+   transform: scale(1.2);
+}
+.flexbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.para1{
+    background: darkgreen;
+    flex: 1;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+}
+.para2{
+    background: rgb(32, 14, 230);
+    flex: 1;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+}
+.para3{
+    background: rgb(70, 182, 227);
+    flex: 1;
+    color: aliceblue;
+    font: bold;
+     padding: 30px;
+     text-align: center;
+}
+.flexboxwrap{
+    background-color:black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.fbox1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.fbox2{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.fbox3{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.fbox4{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
