@@ -34,7 +34,8 @@ a{
 }
 a:hover{
     color: brown;
-    text-decoration: overline;
+    border-top: 2px solid black;
+  border-bottom: 2px solid black;
     
 }
     .card {
@@ -81,6 +82,11 @@ img.box1:hover{
     align-items: center;
     margin:  auto;
 }
+ hr {
+  border: none;
+  border-top: 2px solid black;
+  margin: 0 40px; /* gap at left and right */
+}
 .rotate{
     background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Plain-HD-Images.jpg");
     width: 200px;
@@ -108,4 +114,27 @@ img.box1:hover{
 }
 .circle:hover{
    transform: scale(1.2);
+}
+.slant{
+    position: relative;
+}
+.slantsquare2{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, brown,rgb(238, 120, 10));
+    transform: rotate(10deg);
+    right: 49%;
+    border-radius: 5%;
+    box-shadow: brown 0px 0px 20px,rgb(238, 120, 10)0px 0px 20px;
+    position: absolute;
+}
+.slantsquare1{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, brown,rgb(238, 120, 10));
+    transform: rotate(-10deg);
+    right: 63%;
+    border-radius: 5%;
+    box-shadow: brown 0px 0px 20px,rgb(238, 120, 10)0px 0px 20px;
+    position: absolute;
 }
