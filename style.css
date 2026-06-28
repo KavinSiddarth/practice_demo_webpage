@@ -71,12 +71,22 @@ img.box:hover{
 img.box1:hover{
     transform: rotate(180deg);
 }
+.animation{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+}
 .rotate{
     background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Plain-HD-Images.jpg");
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    position: relative;
+    position: absolute;
     animation: rotate 1s linear infinite ;
 }
 @keyframes rotate{
@@ -92,8 +102,8 @@ img.box1:hover{
     border-radius: 50%;
     border: none;
     position: absolute;
-    right: 45.8%;
-    bottom: -46.5%;
+    bottom: 30px;
+    
     transition: transform 1s ease 0s;
 }
 .circle:hover{
@@ -102,7 +112,9 @@ img.box1:hover{
 .flexbox{
     display: flex;
     justify-content: space-evenly;
+    column-gap: 20px;
 }
+
 .para1{
     background: darkgreen;
     flex: 1;
@@ -110,6 +122,7 @@ img.box1:hover{
     font-weight: bold;
     padding: 30px;
     text-align: center;
+    
 }
 .para2{
     background: rgb(32, 14, 230);
@@ -118,6 +131,7 @@ img.box1:hover{
     font-weight: bold;
     padding: 30px;
     text-align: center;
+    
 }
 .para3{
     background: rgb(70, 182, 227);
@@ -126,6 +140,7 @@ img.box1:hover{
     font: bold;
      padding: 30px;
      text-align: center;
+     
 }
 .flexboxwrap{
     background-color:black;
