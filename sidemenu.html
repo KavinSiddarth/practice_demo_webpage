@@ -4,18 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="sidemenu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div>
-        <h1>maison soleil</h1>
-        <nav>
-            <a href="stay"><i class="fa-solid fa-hotel"></i>Your Stay</a>
-            <a href="house"><i class="fa-solid fa-house"></i>The House</a>
-            <a href="town"><i class="fa-solid fa-mountain-city"></i>Around Town</a>
-            <a href="breakfast"><i class="fa-solid fa-bread-slice"></i>Breakfast</a>
-            <a href="msg"><i class="fa-solid fa-message"></i>Message</a>
-        </nav>
+    <div class="container">
+        <div class="side_menu">
+            <div class="headingm">
+                <i class="fa-solid fa-sun"></i>
+                <h1 class="heading"> maison <br>soleil</h1>
+            </div><hr><br>
+            <nav class="menus">
+                <a href="stay" class="menu1"><i class="fa-solid fa-hotel"></i>Your Stay</a>
+                <a href="house" class="menu1"><i class="fa-solid fa-house"></i>The House</a>
+                <a href="town" class="menu1"><i class="fa-solid fa-mountain-city"></i>Around Town</a>
+                <a href="breakfast" class="menu1"><i class="fa-solid fa-bread-slice"></i>Breakfast</a>
+                <a href="msg" class="menu1"><i class="fa-solid fa-message"></i>Message</a>
+            </nav>
+            <div class="weather">
+                <div class="weatherhead at">Today in class</div>
+                <div class="degree at">27&deg</div>
+                <div class="pdeg at">Sunny-light breeze</div>
+            </div>
+        </div>
+        <div class="vertical-line"></div>
+        <div class="main_display">
+            <div class="submenu">
+                <div class="index_head">
+                    <h5 class="subhead">Booking · confirmed</h5>
+                    <h1 class="mainhead">Bienvenue,<span style="font-family: Lobster Two, sans-serif;">Lucia</span>.</h1>
+                </div>
+                <button class="btn1 btnc">Print receipt</button>
+                <button class="btn2 btnc">add to calendar</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>
